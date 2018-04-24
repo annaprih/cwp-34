@@ -34,7 +34,6 @@ describe('controllers/offices', () => {
 	});
 
 	it('create office', async () => {
-		// так впадлу, шоб вы знали
 		expect.assertions(2);
 
 		const data = {
