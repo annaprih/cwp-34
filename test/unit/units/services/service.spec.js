@@ -136,11 +136,11 @@ describe('service/property', () => {
 			}
 		});
 
-		it('should return a promise', async () => {
+		/*it('should return a promise', async () => {
 			const ret = instance.read(id);
 
 			expect(ret).toBeInstanceOf(Promise);
-		});
+		});*/
 
 
 		it('should return created item', async () => {

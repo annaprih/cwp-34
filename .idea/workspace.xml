@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6d5908-d1d3-4feb-95da-4b4ca3166682" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/crud.js" afterPath="$PROJECT_DIR$/services/crud.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/units/services/service.spec.js" afterPath="$PROJECT_DIR$/test/unit/units/services/service.spec.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="service.spec.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="service.spec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/units/services/service.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2720">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="138" column="10" lean-forward="false" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="officeHelper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/integration/utils/officeHelper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-408">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crud.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crud.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/crud.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -80,7 +90,7 @@
       <file leaf-file-name="repository.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/mocks/repository.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="85">
               <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding />
             </state>
@@ -119,9 +129,9 @@
         <option value="$PROJECT_DIR$/AppManager.js" />
         <option value="$PROJECT_DIR$/test/data/test_config.json" />
         <option value="$PROJECT_DIR$/test/mocks/repository.js" />
-        <option value="$PROJECT_DIR$/test/unit/units/services/service.spec.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/services/crud.js" />
+        <option value="$PROJECT_DIR$/test/unit/units/services/service.spec.js" />
       </list>
     </option>
   </component>
@@ -414,12 +424,12 @@
       <updated>1524460926437</updated>
       <workItem from="1524460934734" duration="4165000" />
       <workItem from="1524473939573" duration="33000" />
-      <workItem from="1524546550112" duration="1264000" />
+      <workItem from="1524546550112" duration="1433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5462000" />
+    <option name="totallyTimeSpent" value="5631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -747,26 +757,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/units/services/service.spec.js">
+    <entry file="file://$PROJECT_DIR$/services/crud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2720">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/mocks/repository.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="85">
           <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/crud.js">
+    <entry file="file://$PROJECT_DIR$/test/integration/utils/officeHelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/units/services/service.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="138" column="10" lean-forward="false" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
           <folding />
         </state>
       </provider>
